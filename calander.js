@@ -26,7 +26,7 @@ function get_odd_days() {
     }
   }
   odd_days+=1;
-  return(odd_days%7)
+  return(odd_days%7);
 }
 
 function cleanup() {
