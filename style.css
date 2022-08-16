@@ -36,6 +36,11 @@ input {
   color: red;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (max-width:500px) {
   .small {
     font-size: 10px;
